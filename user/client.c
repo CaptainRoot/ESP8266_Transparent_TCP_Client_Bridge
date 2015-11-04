@@ -46,7 +46,6 @@ void ICACHE_FLASH_ATTR networkReconCb(void *arg, sint8 err)
 
 void ICACHE_FLASH_ATTR networkDisconCb(void *arg) 
 {
-{
   //uart0_tx_buffer("dcon",4);
   // Thank to Familienpapi@FHEM-Foum
   os_timer_disarm(&network_timer);
